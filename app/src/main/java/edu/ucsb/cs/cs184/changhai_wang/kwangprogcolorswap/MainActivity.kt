@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         var button = Button(this)
 
         //Set UI elements using synthetic properties
-        textView.text = "0"
+        textView.text = "Tap to Change Color"
         textView.textSize = 30.0f
         textView.layoutParams = params
         button.layoutParams = params
